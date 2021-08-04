@@ -1,4 +1,5 @@
 const temperature = 20;
+let raining = true;
 
 if (temperature < 0) {
   console.log("Make sure you pick out a scarf!");
@@ -9,3 +10,7 @@ if (temperature < 0) {
 }
 
 console.log("Now you're ready to go outside!");
+
+if (!raining) {
+  console.log("Leave your umbrella at home!");
+}
